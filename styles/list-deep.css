@@ -1,0 +1,56 @@
+/* 
+
+Change format of any ordered list
+
+From: https://www.dokuwiki.org/plugin:wrap:extensions
+
+*/
+
+
+div.dokuwiki div.wrap_list-deep ol {
+  list-style-type: none;
+}
+ 
+div.dokuwiki div.wrap_list-deep > ol {
+  counter-reset: leva 0; /* set to one lower than intended value of first list item */
+}
+ 
+div.dokuwiki div.wrap_list-deep ol li div.li::before {
+  counter-increment: leva;
+  content: counter(leva) ". ";
+  color: inherit;
+  font-weight: bold;
+}
+/* ~~~~~~ */
+ 
+div.dokuwiki div.wrap_list-deep ol ol {
+  list-style-type: none;
+}
+ 
+div.dokuwiki div.wrap_list-deep > ol ol {
+  counter-reset: levb 0; /* set to one lower than intended value of first list item */
+}
+ 
+div.dokuwiki div.wrap_list-deep ol li li div.li::before {
+  counter-increment: levb;
+  content: counter(leva) "." counter(levb) ". ";
+  color: inherit;
+  font-weight: bold;
+}
+ 
+/* ~~~~~~ */
+ 
+div.dokuwiki div.wrap_list-deep ol ol ol {
+  list-style-type: none;
+}
+ 
+div.dokuwiki div.wrap_list-deep > ol ol ol {
+  counter-reset: levc 0; /* set to one lower than intended value of first list item */
+}
+ 
+div.dokuwiki div.wrap_list-deep ol ol ol div.li::before {
+  counter-increment: levc;
+  content: counter(leva) "." counter(levb) "." counter(levc) ". ";
+  color: inherit;
+  font-weight: bold;
+}
