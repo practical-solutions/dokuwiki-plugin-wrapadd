@@ -63,3 +63,4 @@ Any content
 ## Issues/Todos
 
 * Make nicebox-container printable
+* Reintegration of styles into picbutton.less (for debugging purposes in style.css)
