@@ -1,2 +1,131 @@
-@import 'styles/picbutton.less';
-@import 'styles/borders.less';
+/*********************************************************************** 
+    Button for navigation
+************************************************************************/
+.wrap_picbutton {
+	width:140px;
+    min-height: 185px;
+    margin-left: 2em;
+    background:#F6F6F6;
+    padding:0.5em;
+    text-align:center;
+    cursor:pointer;
+    
+	box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 6px 8px rgba(0,0,0,0.11),
+              0 8px 16px rgba(0,0,0,0.11);
+
+	transition:100ms;
+	display:inline-block;
+	
+}
+
+.wrap_picbutton:hover {
+	transition: 200ms;
+	transform: rotate(2deg);
+}
+
+.wrap_picbutton img {
+	width:60%;
+	margin:0 auto;
+	margin-top:15% !important;
+	margin-bottom:15% !important;
+}
+
+
+
+.wrap_picbutton a {
+	font-size:16px !important;
+}
+
+.wrap_picbutton p {
+	margin: 0;
+	width:100%;
+	display:inline-block;
+	text-align:center;
+}
+/*---------------------------------------------------------------------*/
+
+div.dokuwiki div.wrap_border {
+	border:1px solid black;
+    padding:5px;
+    margin:2px;
+}
+
+div.dokuwiki div.wrap_border h1,
+div.dokuwiki div.wrap_border h2,
+div.dokuwiki div.wrap_border h3,
+div.dokuwiki div.wrap_border h4,
+div.dokuwiki div.wrap_border h5
+{
+    padding-top:0;
+    margin:0;
+}
+
+
+/*---------------------------------------------------------------------
+Simpler boxes
+
+From: https://www.dokuwiki.org/plugin:wrap:extensions
+
+CSS Compounds not possible yet (in the mpdf-version used by dw2pdf). The mpdf issue has apparently been solved
+be now see https://github.com/mpdf/mpdf/issues/538)
+ 
+Thus the css definitions can be changed as soon as the integration of the new mpdf version has been accomplished
+---------------------------------------------------------------------*/
+.wrap_nicebox {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: 5px;
+    width:90%;
+    padding: 0px 12px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background: #f5f9f7;
+    border-left: 10px solid #B2EFFF;
+    color: #0587af;
+}
+
+.wrap_orange {
+    background: #fcf8f2;
+    color: #c97500;
+    border-left: 10px solid #fbaf43;
+}
+
+.wrap_red {
+    border-left: 10px solid #d9534f;
+    background: #fdf7f7;
+    color: #b52b27;
+}
+
+.wrap_green {
+    border-left: 10px solid #8dde4e;
+    background: #f4ffee;
+    color: #57aa16;
+}
+
+.wrap_yellow {
+    border-left: 10px solid #fff15a;
+    background: #fffded;
+    color: #b6a91a;
+}
+
+.wrap_blue {
+    border-left: 10px solid #4f8cdf;
+    background: #f5f7fa;
+    color: #195ab3;
+
+}
+
+.wrap_purple {
+    border-left: 10px solid #c489ef;
+    background: #f1eef4;
+    color: #7625b1;
+}
+
+.wrap_marine {
+    border-left: 10px solid #4bd29c;
+    background: #f5f9f7;
+    color: #1aaf73;
+}

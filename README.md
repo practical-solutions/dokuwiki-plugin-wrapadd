@@ -52,7 +52,7 @@ Content
 Origin: https://www.dokuwiki.org/plugin:wrap:extensions
 Function: Adds simple message boxes
 
-Printable (dw2pdf): no
+Printable (dw2pdf): yes
 
 ```
 <WRAP nicebox red|orange|green|purple|yellow|blue|marine>
@@ -60,7 +60,3 @@ Any content
 </WRAP>
 ```
 
-## Issues/Todos
-
-* Make nicebox-container printable
-* Reintegration of styles into picbutton.less (for debugging purposes in style.css)
