@@ -1,7 +1,7 @@
 ﻿base   wrapadd
 author Gero Gothe
 email  practical@medizin-lernen.de
-date   2020-04-22
+date   2020-05-19
 name   WRAP Plus
 desc   Additional styles for the WRAP-Plugin
 url    https://github.com/practical-solutions/dokuwiki-plugin-wrapadd

@@ -5,20 +5,6 @@ Requires: [WRAP-Plugin](https://www.dokuwiki.org/plugin:wrap)
 This plugin contains additional containers for the common WRAP-Plugin for DokuWiki.
 
 
-## picbutton
-
-For creating navigation buttons. The wrap-container should contain an image in the first place and a link in the second place
-
-Printable (dw2pdf): yes (but not optimized for printing)
-
-```
-<WRAP picbutton>
-{{example-image.png?nolink}}
-[[link]]
-</WRAP>
-
-```
-
 ## list-deep
 
 Origin: https://www.dokuwiki.org/plugin:wrap:extensions
@@ -60,3 +46,15 @@ Any content
 </WRAP>
 ```
 
+## formalbox
+
+Function: Another box variant for formal purposes, especially when used with tables.
+
+Printable(dw2pdf): yes
+
+```
+<WRAP formalbox>
+A formal decision
+| By the director | in the meeting | 13th June 2025 |
+</WRAP>
+```
