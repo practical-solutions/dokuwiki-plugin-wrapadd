@@ -35,50 +35,42 @@ Thus the css definitions can be changed as soon as the integration of the new mp
     border-bottom-right-radius: 7px;
     background: #f5f9f7;
     border-left: 10px solid #B2EFFF;
-    
 }
 
 .wrap_orange {
     background: #fcf8f2;
-    
+    color: #c97500;
     border-left: 10px solid #fbaf43;
 }
 
 .wrap_red {
     border-left: 10px solid #d9534f;
     background: #fdf7f7;
-    
 }
 
 .wrap_green {
     border-left: 10px solid #8dde4e;
     background: #f4ffee;
-    
 }
 
 .wrap_yellow {
     border-left: 10px solid #fff15a;
     background: #fffded;
-    
 }
 
 .wrap_blue {
     border-left: 10px solid #4f8cdf;
     background: #f5f7fa;
-    
-
 }
 
 .wrap_purple {
     border-left: 10px solid #c489ef;
     background: #f1eef4;
-    
 }
 
 .wrap_marine {
     border-left: 10px solid #4bd29c;
     background: #f5f9f7;
-    color: #1aaf73;
 }
 
 
@@ -109,7 +101,6 @@ Thus the css definitions can be changed as soon as the integration of the new mp
     margin-top:5px;
     margin-bottom:5px;
     font-size: 80%;
-    font-family: Courier;
 }
 
 .wrap_formalbox table, 
