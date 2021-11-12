@@ -78,38 +78,38 @@ div.dokuwiki {
         /* From hugo template seen on  https://thomas-leister.de/en/mailserver-debian-stretch/ */
         border-left: 10px solid #d9534f;
         background: #fdf7f7;
-        color: #b52b27;
+        color: black;
       }
       &.wrap_orange {
         /* From hugo template seen on  https://thomas-leister.de/en/mailserver-debian-stretch/ */
         border-left: 10px solid #fbaf43;
         background: #fcf8f2;
-        color: #c97500;
+        color: black;
       }
       &.wrap_green {
         border-left: 10px solid #8dde4e;
         background: #f4ffee;
-        color: #57aa16;
+        color: black;
       }
       &.wrap_yellow {
         border-left: 10px solid #fff15a;
         background: #fffded;
-        color: #b6a91a;
+        color: black;
       }
       &.wrap_blue {
         border-left: 10px solid #4f8cdf;
         background: #f5f7fa;
-        color: #195ab3;
+        color: black;
       }
       &.wrap_purple {
         border-left: 10px solid #c489ef;
         background: #f1eef4;
-        color: #7625b1;
+        color: black;
       }
       &.wrap_marine {
         border-left: 10px solid #4bd29c;
         background: #f5f9f7;
-        color: #1aaf73;
+        color: black;
       }
     }
   }
